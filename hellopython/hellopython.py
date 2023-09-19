@@ -5,9 +5,6 @@ import datetime
 # we are 'reserving memory'
 msg = 'This program was run by Amna the awesome'
 
-
-
-
 # print the contents of the variable
 print(msg)
 

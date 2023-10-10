@@ -10,3 +10,18 @@ NOTES
 
 
 Class is a type, and an object is in memory.
+
+
+### VS Code settings for Python
+
+Set Default Formatter and Tab Size 4
+```json
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.wordBasedSuggestions": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultFormatter": "ms-python.python",
+  }
+```

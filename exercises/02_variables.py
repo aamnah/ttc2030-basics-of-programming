@@ -32,8 +32,8 @@ def maths():
     int
     """
     # input is a string, cast it as an int
-    number_a = int(input('Enter a number: '))
-    number_b = int(input('Enter another number: '))
+    number_a = int(input('Enter a number (integer): '))
+    number_b = int(input('Enter another number (integer): '))
 
     sum = number_a + number_b
     subtract = number_a - number_b
@@ -69,3 +69,5 @@ bank_balance_eur += add_euro
 bank_balance_eur += add_cent / 100
 
 print('Bank account balance: {} €'.format(bank_balance_eur))
+
+print()

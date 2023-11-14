@@ -1,4 +1,4 @@
-# Exercises 2: Variables
+# Exercise 2: Variables
 # https://gitlab.labranet.jamk.fi/ttc2030/basics-of-programming/-/blob/master/exercises/exercise02.md
 
 """

@@ -1,4 +1,4 @@
-# Exercises 9: Exception Handling
+# Exercise 9: Exception Handling
 # https://gitlab.labranet.jamk.fi/ttc2030/basics-of-programming/-/blob/master/exercises/exercise09.md
 
 """

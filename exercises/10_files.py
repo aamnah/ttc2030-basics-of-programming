@@ -1,4 +1,4 @@
-# Exercises 10: Files
+# Exercise 10: Files
 # https://gitlab.labranet.jamk.fi/ttc2030/basics-of-programming/-/blob/master/exercises/exercise10.md
 
 """

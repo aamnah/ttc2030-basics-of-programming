@@ -1,4 +1,4 @@
-# Exercises 3: Conditions
+# Exercise 3: Conditions
 # https://gitlab.labranet.jamk.fi/ttc2030/basics-of-programming/-/blob/master/exercises/exercise03.md
 
 """

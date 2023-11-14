@@ -1,4 +1,4 @@
-# Exercises 5: Functions
+# Exercise 5: Functions
 # https://gitlab.labranet.jamk.fi/ttc2030/basics-of-programming/-/blob/master/exercises/exercise05.md
 
 """

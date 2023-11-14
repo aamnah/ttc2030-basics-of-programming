@@ -1,4 +1,4 @@
-# Exercises 4: Loops
+# Exercise 4: Loops
 # https://gitlab.labranet.jamk.fi/ttc2030/basics-of-programming/-/blob/master/exercises/exercise04.md
 """4.1.
 Make a program that asks the user for the first and last name. Print the first letter of the user's first name as many times as there are letters in the first name. Then print the user's last name in reverse order.

@@ -1,4 +1,4 @@
-# Exercises 6: Recap and Debugger
+# Exercise 6: Recap and Debugger
 # https://gitlab.labranet.jamk.fi/ttc2030/basics-of-programming/-/blob/master/exercises/exercise06.md
 
 """

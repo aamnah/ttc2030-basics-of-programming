@@ -1,4 +1,4 @@
-# Exercises 8: Collections
+# Exercise 8: Collections
 # https://gitlab.labranet.jamk.fi/ttc2030/basics-of-programming/-/blob/master/exercises/exercise08.md
 
 """

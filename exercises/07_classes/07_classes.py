@@ -1,6 +1,7 @@
 '''
 Exercise 7 
 Classes and Objects
+https://gitlab.labranet.jamk.fi/ttc2030/basics-of-programming/-/blob/master/exercises/exercise07.md
 '''
 
 import random

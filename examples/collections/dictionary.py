@@ -4,7 +4,7 @@
 books_dictionary = {
   # key can be a string as well
   # keys can be mismatched as well, but they SHOULD NOT be
-  # but they must be UNIQUE
+  # they must be UNIQUE
   12345678: 'Book 1',
   '12345679': "Book 2",
   '12345680': "Book 3",
@@ -14,7 +14,7 @@ books_dictionary = {
 print("Contents of the bookdict is:", books_dictionary)
 
 
-# any date where you have an identifier and the identifier is uniuqe
+# any data where you have an identifier and the identifier is uniuqe
 # that's where dictionaries are useful
 
 # instead of giving it a key, give it an index

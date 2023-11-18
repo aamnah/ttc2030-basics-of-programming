@@ -28,7 +28,7 @@ Set Default Formatter and Tab Size 4
 
 ### Documenting Python Code
 
-A string literal placed directly below the object can serve as documentation
+A string literal placed directly below the object can serve as documentation. [Read more](https://realpython.com/documenting-python-code/)
 
 ```py
 def plus_one(x):
@@ -121,4 +121,13 @@ Class constructor
     self.model = model
     self.engine_cc = engine_cc
     self.power_kw = power_kw
+```
+
+### Converting an Array to a String
+
+```py
+num = [2,7,12,19,27,33,38]
+
+print(" ".join(str(e) for e in num)) # 2 7 12 19 27 33 38
+print(",".join(str(e) for e in num)) # 2,7,12,19,27,33,38
 ```

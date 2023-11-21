@@ -3,7 +3,11 @@
 
 """
 2.3.
-Declare a variable which is used to store bank account balance in euro (start balance of 2000 €). Print current balance into the console. Ask from user how many euro will be added to the balance. Then ask how many cents are added to the balance. Print the balance after user requested changes are made.
+[x] Declare a variable which is used to store bank account balance in euro (start balance of 2000 €). 
+[x] Print current balance into the console. 
+[x] Ask from user how many euro will be added to the balance. 
+[x] Then ask how many cents are added to the balance. 
+[x] Print the balance after user requested changes are made.
 """
 
 bank_balance_eur = 2000

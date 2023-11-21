@@ -3,8 +3,9 @@
 
 """
 2.1.
-Create a program that declares a variable that stores persons height in full centimeters. Print the value of the variable into the console.
+[x] Create a program that declares a variable that stores persons height in full centimeters. 
+[x] Print the value of the variable into the console.
 """
-height_in_cm = 161
 
-print(height_in_cm)
+person_height = 161
+print(f"Person's height is {person_height}cm.")

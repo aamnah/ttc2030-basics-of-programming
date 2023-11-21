@@ -3,12 +3,11 @@
 
 """
 2.2 
-Create a program that asks two integer numbers from the user and prints result of their their:
-
-Sum
-Subtraction
-Multiplication
-Division
+[x] Create a program that asks two integer numbers from the user and prints result of their their:
+    [x] Sum
+    [x] Subtraction
+    [x] Multiplication
+    [x] Division
 """
 def maths():
     """takes two numbers and does a bunch of math operations on them, prints results

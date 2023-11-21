@@ -3,6 +3,7 @@
 ## Exercises 2: Variables
 * Information on how to return exercises is in course Moodle page.
 
+![Exercise 2](./02_variables.png)
 
 ### 2.1.
 Create a program that declares a variable that stores persons height in full centimeters. Print the value of the variable into the console.

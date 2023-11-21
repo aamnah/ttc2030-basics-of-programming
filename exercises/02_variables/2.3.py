@@ -10,7 +10,7 @@
 [x] Print the balance after user requested changes are made.
 """
 
-bank_balance_eur = 2000
+bank_balance_eur = 2000.0
 
 print('Bank account balance: {} €'.format(bank_balance_eur))
 

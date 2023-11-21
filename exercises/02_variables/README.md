@@ -39,3 +39,8 @@ Example output:
     Bank account balance: 2120.55 €
 
 ![2.3 screenshot](2.3.png)
+
+
+# NOTES
+- Floating points use more memory and are slow to calculate
+- `balance = blanace + deposit` is the same as `balance += deposit`

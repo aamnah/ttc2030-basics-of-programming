@@ -77,6 +77,65 @@ super_msg = 'Amna is super'
 Q: If you have multiple values for the same variable, what will happen? 
 A: The last one will overwrite the one before
 
+## Conditions
+
+```py
+number2 = int(input("Gimme a number: "))
+if number2 == 10:
+    print("number is 10")
+elif number2 < 10:
+    print("Number is less than 10")
+elif number2 >= 20:
+    print("Number is greater than or equal to 20")
+else:
+    print("Number is in between 11 and 19")
+```
+
+having the statements on the same line is also valid
+
+```py
+# having them on the same line is also valid
+number2 = int(input("Gimme a number: "))
+if number2 == 10: print("number is 10")
+elif number2 < 10: print("Number is less than 10")
+elif number2 >= 20: print("Number is greater than or equal to 20")
+else: print("Number is in between 11 and 19")
+```
+
+You can also have `not` in `if` statements
+
+```py
+number2 = int(input("Gimme a number: "))
+if not number2 == 10: print("number is not 10")
+elif not number2 < 10: print("Number is not less than 10")
+elif number2 >= 20: print("Number is greater than or equal to 20")
+else: print("Number is in between 11 and 19")
+```
+
+## Logical operations
+```
+OR
+1010
+0101
+
+= 1111
+```
+
+```
+AND
+1010
+0101
+
+= 0000
+```
+
+```
+XOR (NOT OR / Exclusive OR)
+1010
+0101
+
+= 0000
+```
 
 ## Collections
 

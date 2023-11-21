@@ -91,7 +91,7 @@ else:
     print("Number is in between 11 and 19")
 ```
 
-having the statements on the same line is also valid
+having the statements on the same line is also valid, but you can not have `if` and `else` on the same line
 
 ```py
 # having them on the same line is also valid
@@ -189,4 +189,20 @@ num = [2,7,12,19,27,33,38]
 
 print(" ".join(str(e) for e in num)) # 2 7 12 19 27 33 38
 print(",".join(str(e) for e in num)) # 2,7,12,19,27,33,38
+```
+
+## Exceptions
+Exeptions let you move on with your code instead of crashing. You `try` and if that doesn't work, it goes to the `exception`, where you can _handle_ it.
+
+For example, when input is not given in the right format, tell the user with an exception.
+
+```py
+def ask_number(prompt):
+  try:
+    number = int(input(prompt))
+  except:
+    print('Not a number')
+  return number
+
+ask_number('Gimme a number: ')
 ```

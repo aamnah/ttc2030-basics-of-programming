@@ -35,6 +35,8 @@ Example output:
     Student count: 4
     Minna, Matti, Kirsi, Arto
 
+![Screenshot 6.3](6.3.png)
+
 ### 6.4.
 Five judges are used in the ski jumping. Write a program that asks for rating points for one jump and prints the sum of the style points with the minimum and maximum style points deducted from the sum.
 
@@ -46,3 +48,5 @@ Example output:
     Give points from judge 4: 16
     Give points from judge 5: 20
     Total points are: 57
+
+![Screenshot 6.4](6.4.png)

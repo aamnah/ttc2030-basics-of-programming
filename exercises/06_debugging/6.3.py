@@ -16,3 +16,16 @@ Example output:
   Student count: 4
   Minna, Matti, Kirsi, Arto
 """
+students = []
+
+while True:
+  name = input("Enter student name: ")
+
+  if name == "": break
+  
+  students.append(name)
+
+output = ', '.join(students)
+
+print(f"Student count: {len(students)}")
+print(output)

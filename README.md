@@ -206,3 +206,28 @@ def ask_number(prompt):
 
 ask_number('Gimme a number: ')
 ```
+
+## Doing maths in Python
+[read more on Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
+
+Rounding decimal places
+- [How can I format a decimal to always show 2 decimal places?](https://stackoverflow.com/questions/1995615/how-can-i-format-a-decimal-to-always-show-2-decimal-places)
+- [Limiting floats to two decimal points](https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points/6539677#6539677)
+- round(float_num, num_of_decimals)
+
+- subtracting floats gives a float with a lot of decimal points (16)
+- division always returns a float
+
+```py
+# Subtracting floats
+13.9 - 2.3 = 11.600000000000001
+12.4 - 8.0 = 4.4
+12.4 - 8.1 = 4.300000000000001
+```
+
+```py
+# Division
+9 / 3 = 3.0
+5 / 2 = 2.5
+5 / 3 = 1.6666666666666667
+```

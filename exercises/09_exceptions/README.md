@@ -1,7 +1,6 @@
  # Basics of Programming
 
 ## Exercises 9: Exception Handling
-* Information on how to return exercises is in course Moodle page.
 
 ### 9.1.
 Make a program where you try to change a value in the list that does not exist. Start with a list of four elements and then try to change the fifth element. Check what kind of exception you get.

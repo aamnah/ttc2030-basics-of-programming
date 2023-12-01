@@ -1,7 +1,6 @@
 # Basics of Programming
 
 ## Exercises 8: Collections
-* Information on how to return exercises is in course Moodle page.
 
 ### 8.1.
 Implement a program that stores the playing cards in a standard 52-card deck. The suits are: clubs, diamonds, hearts and spades; card values range from 1-13. Use the collection of your choice to store the cards and print a deck of cards to the console.

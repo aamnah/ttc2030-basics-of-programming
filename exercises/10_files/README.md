@@ -1,7 +1,6 @@
 # Basics of Programming
 
 ## Exercises 10: Files
-* Information on how to return exercises is in course Moodle page.
 
 ### 10.1.
 Make a program that asks the user for the last names of the people and write the names given by the user to a file (you can decide the termination condition yourself).

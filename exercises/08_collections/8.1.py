@@ -21,14 +21,16 @@ def generate_card_deck():
     # https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
     # ♠ ♥ ♦ ♣ ♤ ♡ ♢ ♧
     for suit in suits:
-        for i in range(13): # 0-12
-            card = i + 1 # first card should be 1, we don't have 0 in cards
-            if i == 10: # 11 because of 0-based index
+        for i in range(2,15): # 2-15, cz end-index is not included
+            card = i # first card should be 2, we don't have 0 and 1 in cards
+            if i == 11: # cards start at 2
                 card = 'Jack'
-            elif i == 11:
-                card = 'Queen'
             elif i == 12:
+                card = 'Queen'
+            elif i == 13:
                 card = 'King'
+            elif i == 14:
+                card = 'Ace'
             card_deck.append(str(f"{suit}{card}"))
     return card_deck
 

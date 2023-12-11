@@ -8,6 +8,7 @@ Call the shuffle function and print a deck of cards to the console.
 """
 # from random import shuffle
 import random
+from helpers import print_deck
 
 # Generate a deck of 52 cards having 4 suits (clubs, diamonds, hearts and spades)
 def generate_card_deck():
@@ -30,14 +31,13 @@ def generate_card_deck():
     return card_deck
 
 deck = generate_card_deck()
-print(deck)
 # print("contents of card deck:", deck)
 
 
 try:
     shuffled_deck = generate_card_deck()
     random.shuffle(shuffled_deck)
-    print(shuffled_deck)
+    print_deck(shuffled_deck)
 
 except Exception as e:
-    print('An error occured:', e)
+    print(f"An error occurred: {e}")

@@ -20,13 +20,13 @@ def generate_card_deck():
         for i in range(2,15): # 2-15, cz end-index is not included
             card = i # first card should be 2, we don't have 0 and 1 in cards
             if i == 11: # cards start at 2
-                card = 'Jack'
+                card = 'J'
             elif i == 12:
-                card = 'Queen'
+                card = 'Q'
             elif i == 13:
-                card = 'King'
+                card = 'K'
             elif i == 14:
-                card = 'Ace'
+                card = 'A'
             card_deck.append(str(f"{suit}{card}"))
     return card_deck
 

@@ -19,6 +19,10 @@ names = []
 #             names.append(name+"\n")
 
 def ask_for_input():
+    """
+    Keeps asking for input until 'q' is entered
+
+    """
     while True:
         name = input("Give me a name to save to a file. Enter [q] to exit: ")
         

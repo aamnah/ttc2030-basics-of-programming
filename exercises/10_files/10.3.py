@@ -35,10 +35,10 @@ def write_number_to_file(x):
         print(f"ERROR: {e}")
 
 
+# Keep asking for input until empty input given
 while True:
     number = input("Gimme an integer or floating point number: ")
     
     if number == "": break
 
     write_number_to_file(number)
-    
